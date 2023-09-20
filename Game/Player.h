@@ -1,5 +1,5 @@
 #pragma once
-
+#include <iostream>
 struct Point;
 
 class Player

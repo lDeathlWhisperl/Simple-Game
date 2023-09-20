@@ -2,6 +2,8 @@
 #include "Landscape.h"
 
 #include "Forest.h"
+#include "Desert.h"
+#include "Tundra.h"
 #include "Prototype.h"
 
 World::World(int Length, int Width, unsigned int Seed, 
@@ -28,6 +30,14 @@ void World::land_type(unsigned int Seed)
 	case 'f':
 	case 'F':
 		landscape = new Forest(length, width, Seed);
+		break;
+	case 'd':
+	case 'D':
+		landscape = new Desert(length, width, Seed);
+		break;
+	case 't':
+	case 'T':
+		landscape = new Tundra(length, width, Seed);
 		break;
 	default:
 		landscape = new Prototype(length, width);

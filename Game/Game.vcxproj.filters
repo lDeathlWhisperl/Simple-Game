@@ -13,21 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Файлы заголовков\World">
+      <UniqueIdentifier>{00936457-8be4-497c-8599-ae065f75a9f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\World\Landscapes">
+      <UniqueIdentifier>{845bfb5f-d148-4e84-a571-b1cdf01737c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\World">
+      <UniqueIdentifier>{48611196-19eb-4b9e-8ea1-46d3bebc87be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\World\Landscapes">
+      <UniqueIdentifier>{445dbf6a-864b-4ef8-86b4-16c9aa83fef6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="World.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="Landscape.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="Forest.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="Prototype.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="Player.cpp">
@@ -36,28 +36,49 @@
     <ClCompile Include="Point.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Forest.cpp">
+      <Filter>Исходные файлы\World\Landscapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Landscape.cpp">
+      <Filter>Исходные файлы\World\Landscapes</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Исходные файлы\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Prototype.cpp">
+      <Filter>Исходные файлы\World\Landscapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Desert.cpp">
+      <Filter>Исходные файлы\World\Landscapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Tundra.cpp">
+      <Filter>Исходные файлы\World\Landscapes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="World.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="Landscape.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="Forest.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="Prototype.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
     <ClInclude Include="Player.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Point.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="cpp.hint" />
+    <ClInclude Include="World.h">
+      <Filter>Файлы заголовков\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Prototype.h">
+      <Filter>Файлы заголовков\World\Landscapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Forest.h">
+      <Filter>Файлы заголовков\World\Landscapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Landscape.h">
+      <Filter>Файлы заголовков\World\Landscapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Desert.h">
+      <Filter>Файлы заголовков\World\Landscapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Tundra.h">
+      <Filter>Файлы заголовков\World\Landscapes</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
