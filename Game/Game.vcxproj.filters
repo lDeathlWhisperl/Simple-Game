@@ -25,6 +25,30 @@
     <Filter Include="Исходные файлы\World\Landscapes">
       <UniqueIdentifier>{445dbf6a-864b-4ef8-86b4-16c9aa83fef6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Units">
+      <UniqueIdentifier>{49f0513e-8e03-4238-9727-8843a94d444a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Units">
+      <UniqueIdentifier>{ad6c5029-9f38-4447-97db-e54003a9408f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Units\Melee">
+      <UniqueIdentifier>{d44e1a59-22ed-44cf-847c-846e8700b811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Units\Range">
+      <UniqueIdentifier>{30efbbb0-4117-4e49-97fc-eb6d04e7bcb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Units\Types">
+      <UniqueIdentifier>{3fc80082-3627-4c9c-9947-3a81967febd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Units\Melee">
+      <UniqueIdentifier>{f4229640-1371-4192-be14-59cb4323cc1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Units\Range">
+      <UniqueIdentifier>{34ca10fd-fc1a-4c54-bc97-3dbaa4ea8e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Units\Types">
+      <UniqueIdentifier>{07435a74-3c44-4e88-be6c-e81b84af6fd8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -54,6 +78,39 @@
     <ClCompile Include="Tundra.cpp">
       <Filter>Исходные файлы\World\Landscapes</Filter>
     </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Swordsman.cpp">
+      <Filter>Исходные файлы\Units\Melee</Filter>
+    </ClCompile>
+    <ClCompile Include="Fencer.cpp">
+      <Filter>Исходные файлы\Units\Melee</Filter>
+    </ClCompile>
+    <ClCompile Include="Archer.cpp">
+      <Filter>Исходные файлы\Units\Range</Filter>
+    </ClCompile>
+    <ClCompile Include="Spearman.cpp">
+      <Filter>Исходные файлы\Units\Range</Filter>
+    </ClCompile>
+    <ClCompile Include="Melee.cpp">
+      <Filter>Исходные файлы\Units\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Range.cpp">
+      <Filter>Исходные файлы\Units\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Type_1.cpp">
+      <Filter>Исходные файлы\Units\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Spawner.cpp">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Type_2.cpp">
+      <Filter>Исходные файлы\Units\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>Исходные файлы\World</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player.h">
@@ -79,6 +136,39 @@
     </ClInclude>
     <ClInclude Include="Tundra.h">
       <Filter>Файлы заголовков\World\Landscapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Файлы заголовков\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Swordsman.h">
+      <Filter>Файлы заголовков\Units\Melee</Filter>
+    </ClInclude>
+    <ClInclude Include="Fencer.h">
+      <Filter>Файлы заголовков\Units\Melee</Filter>
+    </ClInclude>
+    <ClInclude Include="Archer.h">
+      <Filter>Файлы заголовков\Units\Range</Filter>
+    </ClInclude>
+    <ClInclude Include="Witch.h">
+      <Filter>Файлы заголовков\Units\Range</Filter>
+    </ClInclude>
+    <ClInclude Include="Melee.h">
+      <Filter>Файлы заголовков\Units\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Range.h">
+      <Filter>Файлы заголовков\Units\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Type_1.h">
+      <Filter>Файлы заголовков\Units\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Spawner.h">
+      <Filter>Файлы заголовков\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Type_2.h">
+      <Filter>Файлы заголовков\Units\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>Файлы заголовков\World</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

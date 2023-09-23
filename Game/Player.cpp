@@ -1,12 +1,15 @@
 #include "Player.h"
 #include "Point.h"
+#include "World.h"
 
 #include <iostream>
 #include <conio.h>
 
+char Player::lastPressedKey = '\0';
+
 Player::Player() : coords(new Point(1, 1)) {}
 
-void Player::draw()
+void Player::draw() const
 {
 	gotoPoint(*coords);
 	std::cout << "[]";
@@ -20,24 +23,35 @@ void Player::controller()
 	{
 	case 'W':
 	case 'w':
-		--coords->y;
+		if(coords->y != 2)
+			--coords->y;
 		break;
 	case 'A':
 	case 'a':
-		--coords->x;
+		if(coords->x != 2)
+			--coords->x;
 		break;
 	case 'S':
 	case 's':
-		++coords->y;
+		if (coords->y != World::width - 1)
+			++coords->y;
 		break;
 	case 'D':
 	case 'd':
-		++coords->x;
+		if (coords->x != World::length * 2 - 3)
+			++coords->x;
 		break;
 	}
+
+	lastPressedKey = movement;
 }
 
 Point Player::getCoords() const
 {
 	return *coords;
+}
+
+char Player::getLastPressedKey()
+{
+	return lastPressedKey;
 }

@@ -139,24 +139,46 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Archer.cpp" />
+    <ClCompile Include="Base.cpp" />
     <ClCompile Include="Desert.cpp" />
+    <ClCompile Include="Fencer.cpp" />
     <ClCompile Include="Forest.cpp" />
     <ClCompile Include="Landscape.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Melee.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Point.cpp" />
     <ClCompile Include="Prototype.cpp" />
+    <ClCompile Include="Range.cpp" />
+    <ClCompile Include="Spawner.cpp" />
+    <ClCompile Include="Spearman.cpp" />
+    <ClCompile Include="Swordsman.cpp" />
     <ClCompile Include="Tundra.cpp" />
+    <ClCompile Include="Type_1.cpp" />
+    <ClCompile Include="Type_2.cpp" />
+    <ClCompile Include="Unit.cpp" />
     <ClCompile Include="World.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Archer.h" />
+    <ClInclude Include="Base.h" />
     <ClInclude Include="Desert.h" />
+    <ClInclude Include="Fencer.h" />
     <ClInclude Include="Forest.h" />
     <ClInclude Include="Landscape.h" />
+    <ClInclude Include="Melee.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Point.h" />
     <ClInclude Include="Prototype.h" />
+    <ClInclude Include="Range.h" />
+    <ClInclude Include="Spawner.h" />
+    <ClInclude Include="Type_1.h" />
+    <ClInclude Include="Type_2.h" />
+    <ClInclude Include="Witch.h" />
+    <ClInclude Include="Swordsman.h" />
     <ClInclude Include="Tundra.h" />
+    <ClInclude Include="Unit.h" />
     <ClInclude Include="World.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

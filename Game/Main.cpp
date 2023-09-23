@@ -2,7 +2,6 @@
 #include <windows.h>
 
 #include "World.h"
-#include "Player.h"
 #include "Point.h"
 
 #define GAME_LOOP() while(true)
