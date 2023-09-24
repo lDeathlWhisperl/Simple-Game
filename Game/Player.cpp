@@ -6,8 +6,13 @@
 #include <conio.h>
 
 char Player::lastPressedKey = '\0';
+Point* Player::coords = new Point();
 
-Player::Player() : coords(new Point(1, 1)) {}
+Player::Player()
+{
+	coords->x = 2;
+	coords->y = 2;
+}
 
 void Player::draw() const
 {
@@ -46,7 +51,7 @@ void Player::controller()
 	lastPressedKey = movement;
 }
 
-Point Player::getCoords() const
+Point Player::getCoords()
 {
 	return *coords;
 }

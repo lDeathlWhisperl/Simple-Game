@@ -90,7 +90,7 @@
     <ClCompile Include="Archer.cpp">
       <Filter>Исходные файлы\Units\Range</Filter>
     </ClCompile>
-    <ClCompile Include="Spearman.cpp">
+    <ClCompile Include="Witch.cpp">
       <Filter>Исходные файлы\Units\Range</Filter>
     </ClCompile>
     <ClCompile Include="Melee.cpp">

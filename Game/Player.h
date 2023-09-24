@@ -5,7 +5,7 @@ struct Point;
 
 class Player
 {
-	Point* coords;
+	static Point* coords;
 	static char lastPressedKey;
 
 public:
@@ -13,7 +13,7 @@ public:
 
 	void draw() const;
 	void controller();
-	Point getCoords() const;
+	static Point getCoords();
 	static char getLastPressedKey();
 };
 

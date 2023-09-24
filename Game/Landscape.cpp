@@ -4,10 +4,7 @@
 #include "Base.h"
 
 Landscape::Landscape(int Length, int Width, unsigned int Seed) 
-	: length(Length), width(Width), seed(Seed)
-{
-	skip_list.push_back(Base::getCoord());
-}
+	: length(Length), width(Width), seed(Seed) {}
 
 int Landscape::getRandomNumber(int min, int max)
 {

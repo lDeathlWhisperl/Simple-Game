@@ -152,7 +152,7 @@
     <ClCompile Include="Prototype.cpp" />
     <ClCompile Include="Range.cpp" />
     <ClCompile Include="Spawner.cpp" />
-    <ClCompile Include="Spearman.cpp" />
+    <ClCompile Include="Witch.cpp" />
     <ClCompile Include="Swordsman.cpp" />
     <ClCompile Include="Tundra.cpp" />
     <ClCompile Include="Type_1.cpp" />

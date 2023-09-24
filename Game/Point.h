@@ -4,8 +4,6 @@ struct Point
 {
 	int x, y;
 
-	Point(int X = 0, int Y = 0) : x(X + 1), y(Y + 1) {}
-
 	Point operator-(Point pnt)
 	{
 		return { x - pnt.x, y - pnt.y };
